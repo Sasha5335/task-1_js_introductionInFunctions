@@ -49,19 +49,16 @@ const calcAreaRhombus = function (a, h) {
 // Расчет площади цилиндра
 const calcAreaCylinder = function (r, h) {
 	return 2 * Math.PI * r * (h + r);
-	// return parseFloat(square.toFixed(3));
 };
 
 // Расчет площади треугольника
 const calcAreaRectangle = function (a, h) {
 	return 0.5 * a * h;
-	// return parseFloat(square.toFixed(3));
 };
 
 // Расчет площади прямоугольника
 const calcAreaTriangle = function (a, b) {
 	return a * b;
-	// return parseFloat(square.toFixed(3));
 };
 
 const areaCalculation = function (a, b) {
